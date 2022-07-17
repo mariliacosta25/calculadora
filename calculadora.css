@@ -1,0 +1,35 @@
+#container {
+    border: 2px solid red;
+    width: 263px;
+    height: 300px;
+}
+
+.campo{
+    display: flex;
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
+}
+
+.botao{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    border: 1px solid red;
+    flex-direction: column;
+    flex-wrap: wrap; 
+  
+}
+
+.botoes {
+    padding: 10px;
+    border: 1px solid red;
+    margin: 2px;
+}
+ .botoes:hover{
+    box-shadow: 2px 2px 2px 2px grey;
+ }
+
+
